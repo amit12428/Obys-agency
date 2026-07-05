@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Obys Agency</title>
     <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
     <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,7 +41,7 @@
       </div>
     </div>
     <div id="main">
-      <div id="page1">
+      <div id="page1" data-scroll data-scroll-speed="-2.5">
         <div id="nav">
           <svg class="brand__svg" width="71" height="27" viewBox="0 0 71 27">
             <path
@@ -101,7 +105,7 @@
           <h1>experience</h1>
         </div>
       </div>
-      <div id="page2">
+      <div id="page2" data-scroll data-scroll-speed="-2.5">
         <div id="video-container">
           <div class="video-cursor">
             <i class="ri-play-fill"></i>
@@ -115,8 +119,8 @@
           ></video>
         </div>
       </div>
-      <div id="page3"></div>
-      <div id="page4">
+      <div id="page3" data-scroll data-scroll-speed="-2.5"></div>
+      <div id="page4" data-scroll>
         <div class="page4-content">
           <h1>About Obys</h1>
           <hr />
@@ -166,8 +170,59 @@
           <hr />
         </div>
       </div>
-      <div id="page5"></div>
+      <div id="page5" data-scroll>
+        <div class="elem">
+          <h1><span>Sport</span> - Technology - Fashion -&nbsp;</h1>
+          <h1><span>Sport</span> - Technology - Fashion -&nbsp;</h1>
+        </div>
+        <div class="elem">
+          <h1 class="line2">
+            &nbsp;- science - <span>partners</span> - Travel
+          </h1>
+          <h1 class="line2">
+            &nbsp;- science - <span>partners</span> - Travel
+          </h1>
+        </div>
+        <div class="elem">
+          <h1><span>Sport</span> - Technology - Fashion -&nbsp;</h1>
+          <h1><span>Sport</span> - Technology - Fashion -&nbsp;</h1>
+        </div>
+        <div class="elem">
+          <h1 class="line2">
+            science - <span>partners</span> - Travel -&nbsp;
+          </h1>
+          <h1 class="line2">
+            science - <span>partners</span> - Travel -&nbsp;
+          </h1>
+        </div>
+      </div>
+      <div id="footer" data-scroll>
+        <h1>let's create</h1>
+        <hr />
+        <div class="footer-div">
+          <div class="box">
+            <h6>Socials</h6>
+            <h5>Dribbble</h5>
+            <h5>Behance</h5>
+            <h5>Instagram</h5>
+            <h5>Facebook</h5>
+            <h5>Twitter</h5>
+            <h5>YouTube</h5>
+          </div>
+          <div class="box">
+            <h6>Address</h6>
+            <h5>Pushkinska 5 61057 Kharkiv Ukraine</h5>
+          </div>
+          <div class="box">
+            <h6>Say Hi!</h6>
+            <h5>info@obys.agency</h5>
+          </div>
+        </div>
+        <div class="hr"></div>
+        <h5>Obys Agency &copy; 2026</h5>
+      </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
       integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="

@@ -240,6 +240,16 @@ h6 {
   font-weight: 500;
 }
 
+.page4-content h1::before {
+  content: "03";
+  position: absolute;
+  font-size: 3vw;
+  left: -15%;
+  top: 0.12%;
+  font-family: "Space Grotesk";
+  font-weight: 300;
+}
+
 .page4-content hr {
   width: 96%;
   background-color: #fff;
@@ -293,7 +303,89 @@ h6 {
 }
 
 #page5 {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100%;
-  background-color: #fff;
+  /* background-color: #4a4747; */
+  position: relative;
+}
+
+.elem {
+  /* background-color: #3f7df4; */
+  /* border: 2px solid rgb(203, 18, 18); */
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.elem h1 {
+  font-size: 6.5vw;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  color: transparent;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.elem span {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  color: transparent;
+}
+
+#footer {
+  height: 100vh;
+  width: 100%;
+  /* background-color: #3f7df4; */
+  position: relative;
+  padding-left: 28%;
+}
+
+#footer h1 {
+  font-size: 6.4vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#footer h1::before {
+  content: "04";
+  position: absolute;
+  font-size: 3vw;
+  left: 18%;
+  top: 0.8%;
+  font-family: "Space Grotesk";
+  font-weight: 300;
+}
+
+#footer hr {
+  margin: 3vw 0;
+  width: 96%;
+}
+
+.hr {
+  width: 96%;
+  height: 0.1vw;
+  margin-top: 6.8vw;
+  background-color: white;
+}
+
+.footer-div {
+  display: flex;
+  gap: 10vw;
+  margin-top: 5vw;
+}
+
+.footer-div h6 {
+  margin-bottom: 1.5vw;
+  font-size: 1vw;
+  font-family: "ObysSans";
+}
+
+.footer-div h5 {
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.hr + h5 {
+  margin-top: 2vw;
+  font-size: 1vw;
+  font-weight: 500;
 }
